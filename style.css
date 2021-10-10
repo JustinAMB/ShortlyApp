@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Raleway', Georgia;
+    font-size: 1.6rem;
+    line-height: 2;
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/*Globales*/
+
+.contenedor {
+    margin: 0 auto;
+    max-width: 105rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/*Navegacion*/
+
+.contenedor-navegacion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ingreso {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+nav ul {
+    max-width: 40rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*Footer*/
+
+.menus {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
